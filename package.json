@@ -1,0 +1,16 @@
+{
+  "name": "rayriffy-ssj",
+  "version": "1.0.0",
+  "description": "Somsakjeam",
+  "main": "index.js",
+  "repository": "https://github.com/rayriffy/rayriffy-ssj",
+  "author": "Phumrapee Limpianchop <contact@rayriffy.com>",
+  "license": "MIT",
+  "private": true,
+  "devDependencies": {
+    "netlify-cli": "^2.30.0"
+  },
+  "scripts": {
+    "deploy": "netlify deploy --dir=./public --prod"
+  }
+}
